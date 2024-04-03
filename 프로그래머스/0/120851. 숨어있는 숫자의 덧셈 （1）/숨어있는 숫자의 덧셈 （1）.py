@@ -3,4 +3,5 @@ def solution(my_string):
     for i in my_string:
         if i.isdigit():
             answer+=int(i)
-    return answer
+    return answer'
+    #return sum(int(i) for i in my_string if i.isdigit())
