@@ -1,5 +1,4 @@
 def solution(num_list):
-    answer = 1
     matrix=1
     for i in num_list:
         matrix *= i
